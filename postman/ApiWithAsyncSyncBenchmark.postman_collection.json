@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "5d03e14e-f363-4a88-9b62-f521924cb489",
+		"name": "ApiWithAsyncSyncBenchmark",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1736026"
+	},
+	"item": [
+		{
+			"name": "Sync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7208/Bitcoin/GetCurrentPriceSync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7208",
+					"path": [
+						"Bitcoin",
+						"GetCurrentPriceSync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Async",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7208/Bitcoin/GetCurrentPriceAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7208",
+					"path": [
+						"Bitcoin",
+						"GetCurrentPriceAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
